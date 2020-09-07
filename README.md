@@ -8,5 +8,4 @@ Notes:
 
 - I will be sharing blog posts related to Mathematics, Statistics and Data Science under the `Posts` section.
 - I will also be sharing my personal Data Science projects under the `Projects` setion.
-- Under the `Notes` section I will be posting Data Science/ML/DL tutorials (from scratch) and notes to remind myself some of the advanced topics I regularly forgot :)
-
+- Under the `Notes` section I will be posting Data Science/ML/DL tutorials (from scratch) and notes to remind myself some of the advanced topics I don't utilize regularly.
