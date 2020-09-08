@@ -14,10 +14,20 @@
   background-attachment: fixed;
   background-position: center;
   transform: scale(1.1);
-  -webkit-filter: blur(3px);
-          filter: blur(3px);
+  /*-webkit-filter: blur(0px);
+          filter: blur(0px);*/
   background-size: cover;
 }
+
+.particles {
+margin: 0px !important;
+top:    0px !important;
+left:   0px !important;
+right:  0px !important;
+bottom: 0px !important;
+z-index: -1;
+}
+
 
 .content {
   position: relative;
@@ -26,10 +36,10 @@
 }
 
 .home img {
-  width: 148px;
+  width:  148px;
   height: 148px;
   background-color: #e7e7ef;
-  padding: 5px;
+  padding: 4px;
   margin-bottom: 10px;
 }
 
@@ -38,7 +48,7 @@
 }
 
 .home .typing-carousel {
-  font-size: 14pt;
+  font-size: 16pt;
   color: #f0f0f0;
 }
 
@@ -57,6 +67,7 @@
   -webkit-animation: bounce 2s infinite;
           animation: bounce 2s infinite;
 }
+
 
 @-webkit-keyframes bounce {
   0%,
