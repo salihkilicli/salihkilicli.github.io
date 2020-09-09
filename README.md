@@ -14,28 +14,28 @@ Notes:
 
 There are so many tutorials on how to use particle affects on the web; however, almost all of them create a new HTML file rather than applying it onto an existing website with fixed background. I wanted to explain how to do it in this post. 
 
-Here is the GitHub repo for the particles.js https://github.com/VincentGarreau/particles.js/.
-You can edit and check live version of the effect on [here](https://vincentgarreau.com/particles.js/), and pick best parameters for your own particles.
-This [website](https://codepen.io/pen/?&editable=true=https%3A%2F%2Fvincentgarreau.com%2Fparticles.js%2F) allows you to see HTML, CSS and js codes you want to include in your website to add `particles` effect in your webpage.
+Here is the GitHub repo for the `particles.js` https://github.com/VincentGarreau/particles.js/.
+You can edit and preview the live version of the effect on [here](https://vincentgarreau.com/particles.js/), and pick best parameters for your own animation.
+This [website](https://codepen.io/pen/?&editable=true=https%3A%2F%2Fvincentgarreau.com%2Fparticles.js%2F) provides HTML, CSS and js codes you want to include in your website to add `particles` effect in your webpage.
 
-In order to complete adding particles effect in your website follow the instructions below:
+In order to add particles effect in your website, follow the instructions below:
 
 1) Download the demo files from the repo.
 2) Copy `particles.js` and `app.js` file into your local `js` folder.
-3) Edit your webpages `index.html` file and insert a `particles.js` container (or attribute) inside the section you want to apply it in.
+3) Edit your webpage's `index.html` file and insert a `particles.js` container (or attribute) inside the section you want to apply the effect in.
 
   ```html
   <!-- particles-js container -->
   <div id="particles-js"></div>
   ```
-4) Also, using `<script>` tag include relative directions to `particles.js` and `app.js` files you want to apply in your webpage. Notice the path given below is relative to the folder `index.html` belongs.
+4) Then, using a `<script>` tag include the relative path to `particles.js` and `app.js` files.
 
   ```html
     <!-- Particles Animation JS -->
     <script src="assets/js/particles.js"></script>
     <script src="assets/js/particles.app.js"></script>
   ```
-5) Now insert the __js__ code below inside the corresponding section's (in my case it was `home.css`) css file:
+5) Now insert the __CSS__ code below inside the corresponding section's (in my case it was `home.css`) css file:
 
   ```javascript
   .particles {
