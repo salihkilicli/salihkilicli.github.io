@@ -4,8 +4,6 @@ This is my portfolio and blog site which can be reached @ https://salihkilicli.g
 
 ![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/ss.png)
 
-![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif)
-
 The webpage was built on Hugo's [Toha](https://themes.gohugo.io/toha/) theme and the creator of the theme is [Emruz Hossain](https://github.com/hossainemruz/). 
 
 The avatar is created using **avatarmaker**, you can create your own avatar using https://avatarmaker.com/.
@@ -18,6 +16,10 @@ Notes:
 - Under the `Notes` section I will be posting Data Science/ML/DL tutorials (from scratch) and notes to remind myself some of the advanced topics I don't utilize regularly.
 
 #### How to add particles effects on a section in your website?
+
+Below a **gif** example of how particles effects works:
+
+![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif)
 
 There are so many tutorials on how to use particle effects on the web; however, almost all of them create a new HTML file rather than applying it onto an existing website with a fixed background. I wanted to explain how to do it in this post. 
 
