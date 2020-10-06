@@ -1,10 +1,11 @@
 # Data Science Portfolio Website
 
-This is my portfolio and blog site which can be reached @ https://salihkilicli.github.io/. You can create your own avatar using https://avatarmaker.com/.
+This is my portfolio and blog site which can be reached @ https://salihkilicli.github.io/. 
 
 ![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif)
 
-The webpage was built on Hugo's [Toha](https://themes.gohugo.io/toha/) theme and the creator of the theme is [Emruz Hossain](https://github.com/hossainemruz/).
+The webpage was built on Hugo's [Toha](https://themes.gohugo.io/toha/) theme and the creator of the theme is [Emruz Hossain](https://github.com/hossainemruz/). The avatar is created using **avatarmaker**, you can create your own avatar using https://avatarmaker.com/.
+
 
 Notes:
 
