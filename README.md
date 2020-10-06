@@ -12,7 +12,7 @@ Notes:
 
 #### How to add particles effects on a section in your website?
 
-There are so many tutorials on how to use particle affects on the web; however, almost all of them create a new HTML file rather than applying it onto an existing website with fixed background. I wanted to explain how to do it in this post. 
+There are so many tutorials on how to use particle effects on the web; however, almost all of them create a new HTML file rather than applying it onto an existing website with fixed background. I wanted to explain how to do it in this post. 
 
 Here is the GitHub repo for the `particles.js` https://github.com/VincentGarreau/particles.js/.
 You can edit and preview the live version of the effect on [here](https://vincentgarreau.com/particles.js/), and pick best parameters for your own animation.
