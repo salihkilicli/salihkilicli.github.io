@@ -1,6 +1,6 @@
 # Data Science Portfolio Website
 
-This is my portfolio and blog site which can be reached @ https://salihkilicli.github.io/
+This is my portfolio and blog site which can be reached @ https://salihkilicli.github.io/. You can create your own avatar using https://avatarmaker.com/.
 
 ![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif)
 
