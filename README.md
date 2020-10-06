@@ -17,9 +17,11 @@ Notes:
 
 #### How to add particles effects on a section in your website?
 
-Below a **gif** example of how particles effects works:
+Here is a **preview** of how the particles effects works:
 
 ![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif)
+
+#### Details: ####
 
 There are so many tutorials on how to use particle effects on the web; however, almost all of them create a new HTML file rather than applying it onto an existing website with a fixed background. I wanted to explain how to do it in this post. 
 
