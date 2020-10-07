@@ -49,7 +49,7 @@
   * [2. Deep Learning in Practice](books/dlwp/2.-deep-learning-in-practice.md)
 * [Elements of Statistical Learning](books/esl.md)
 
-## Advanced Topics
+## Advanced Topics <a id="advanced"></a>
 
 ---
 
@@ -58,5 +58,5 @@
 * [Unit Tests & Refactoring](unit-tests-and-refactoring.md)
 * [Data Structures & Algorithms](data-structures-and-algorithms.md)
 
-## Miscellaneous
+## Miscellaneous <a id="misc"></a>
 
