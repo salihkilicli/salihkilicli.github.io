@@ -1,2 +1,2 @@
-# Python Data Science Handbook
+# Python DS Handbook
 

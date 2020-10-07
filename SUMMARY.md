@@ -1,11 +1,17 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Calendar](calendar.md)
+* [My Calendar](calendar.md)
+* [External Posts](external-posts/README.md)
+  * [Twitter Posts](https://twitter.com/math3mantic_)
+  * [Medium Posts](https://medium.com/@math3mantic)
+  * [Kaggle Notebooks](https://www.kaggle.com/math3mantic/notebooks)
 
 ## Tutorials
 
-* [SQL](tutorials/sql.md)
+* [SQL](tutorials/sql/README.md)
+  * [Basics](tutorials/sql/basics.md)
+  * [Advanced](tutorials/sql/advanced.md)
 * [Linux](tutorials/linux/README.md)
   * [Basics](tutorials/linux/basics.md)
   * [Git Commands](tutorials/linux/git-commands.md)
@@ -20,7 +26,7 @@
 
 ## Book Notes <a id="books"></a>
 
-* [Python Data Science Handbook](books/pdsh/README.md)
+* [Python DS Handbook](books/pdsh/README.md)
   * [1. Jupyter Notebook \(IPython\)](books/pdsh/1.-jupyter-notebook-ipython.md)
   * [2. Introduction to NumPy](books/pdsh/2.-introduction-to-numpy.md)
   * [3. Data Manipulation - Pandas](books/pdsh/3.-data-manipulation-pandas.md)
@@ -49,5 +55,6 @@
 
 * [Keras](keras.md)
 * [TensorFlow 2.0](tensorflow-2.0.md)
+* [Unit Tests & Refactoring](unit-tests-and-refactoring.md)
 * [Data Structures & Algorithms](data-structures-and-algorithms.md)
 
