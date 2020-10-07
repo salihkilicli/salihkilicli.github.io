@@ -6,10 +6,6 @@ description: >-
 
 # Introduction
 
-|  |  |
-| :---: | :---: |
-|  |  |
-
 There are 4 types of **hints** used within the notes :
 
 {% hint style="info" %}
@@ -25,6 +21,6 @@ There are 4 types of **hints** used within the notes :
 {% endhint %}
 
 {% hint style="success" %}
-**Success:** It is used to show a _successful_ _implementation_ of a technique.
+**Success:** It is used to show the _successful_ _implementation_ of a technique.
 {% endhint %}
 
