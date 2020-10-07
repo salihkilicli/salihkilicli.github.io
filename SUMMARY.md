@@ -1,8 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Coding Practice](calendar.md)
-* [External Posts](external-posts/README.md)
+* [External Posts](external/README.md)
   * [Twitter Posts](https://twitter.com/math3mantic_)
   * [Medium Posts](https://medium.com/@math3mantic)
   * [Kaggle Notebooks](https://www.kaggle.com/math3mantic/notebooks)
@@ -21,8 +20,8 @@
   * [NumPy](tutorials/python/numpy.md)
   * [Pandas](tutorials/python/pandas.md)
   * [Matplotlib-Seaborn-Plotly](tutorials/python/matplotlib-seaborn-plotly.md)
-* [Machine Learning](tutorials/machine-learning.md)
-* [Deep Learning](tutorials/deep-learning.md)
+* [Machine Learning](tutorials/ml.md)
+* [Deep Learning](tutorials/dl.md)
 
 ## Book Notes <a id="books"></a>
 
@@ -54,9 +53,13 @@
 ---
 
 * [Keras](keras.md)
-* [TensorFlow 2.0](tensorflow-2.0.md)
-* [Unit Tests & Refactoring](unit-tests-and-refactoring.md)
-* [Data Structures & Algorithms](data-structures-and-algorithms.md)
+* [TensorFlow 2.0](tf2.md)
+* [Unit Tests & Refactoring](refactoring.md)
+* [Data Structures & Algorithms](algorithms.md)
 
 ## Miscellaneous <a id="misc"></a>
+
+---
+
+* [Coding Practice](coding.md)
 
