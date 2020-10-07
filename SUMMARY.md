@@ -37,8 +37,16 @@
     * [8. Dimension Reduction](books/handsonml2/i.-the-fundamentals-of-ml/8.-dimension-reduction.md)
     * [9. Unsupervised Learning](books/handsonml2/i.-the-fundamentals-of-ml/9.-unsupervised-learning.md)
   * [II. Neural Networks  -  DL](books/handsonml2/ii.-neural-networks-and-dl.md)
-* [Deep Learning with Python](books/dlwp.md)
+* [Deep Learning with Python](books/dlwp/README.md)
+  * [1. Fundamentals of DL](books/dlwp/1.-fundamentals-of-dl.md)
+  * [2. Deep Learning in Practice](books/dlwp/2.-deep-learning-in-practice.md)
 * [Elements of Statistical Learning](books/esl.md)
 
 ## Advanced Topics
+
+---
+
+* [Keras](keras.md)
+* [TensorFlow 2.0](tensorflow-2.0.md)
+* [Data Structures & Algorithms](data-structures-and-algorithms.md)
 
