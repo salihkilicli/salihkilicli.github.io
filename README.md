@@ -1,10 +1,14 @@
 ---
 description: >-
   I will share my personal notes about the Programming and Data Science topics
-  on this page. The notes consist of 4 main sections:
+  on this page.
 ---
 
 # Introduction
+
+The notes consist of 4 **main** sections:
+
+
 
 There are 4 types of **hints** used within the notes :
 
