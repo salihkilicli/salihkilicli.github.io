@@ -6,5 +6,9 @@ description: >-
 
 # Introduction
 
+Some of the tips used in the notes are:
 
+{% hint style="info" %}
+
+{% endhint %}
 

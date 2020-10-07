@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Calendar](calendar.md)
 
 ## Tutorials
 
