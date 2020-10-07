@@ -1,2 +1,2 @@
-# My Calendar
+# Coding Practice
 

@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [My Calendar](calendar.md)
+* [Coding Practice](calendar.md)
 * [External Posts](external-posts/README.md)
   * [Twitter Posts](https://twitter.com/math3mantic_)
   * [Medium Posts](https://medium.com/@math3mantic)
