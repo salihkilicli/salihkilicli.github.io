@@ -19,9 +19,14 @@
 
 ## Books
 
-* [Python Data Science Handbook](books/pdsh.md)
+* [Python Data Science Handbook](books/pdsh/README.md)
+  * [1. Jupyter Notebook \(IPython\)](books/pdsh/1.-jupyter-notebook-ipython.md)
+  * [2. Introduction to NumPy](books/pdsh/2.-introduction-to-numpy.md)
+  * [3. Data Manipulation - Pandas](books/pdsh/3.-data-manipulation-pandas.md)
+  * [4. Visualization - Matplotlib](books/pdsh/4.-visualization-matplotlib.md)
+  * [5. Machine Learning](books/pdsh/5.-machine-learning.md)
 * [Hands-on Machine Learning](books/handsonml2/README.md)
-  * [I. The Fundamentals of ML](books/handsonml2/i.-the-fundamentals-of-ml/README.md)
+  * [I. The Fundamentals - ML](books/handsonml2/i.-the-fundamentals-of-ml/README.md)
     * [1. The ML Landscape](books/handsonml2/i.-the-fundamentals-of-ml/1.-the-ml-landscape.md)
     * [2. End-to-End ML Project](books/handsonml2/i.-the-fundamentals-of-ml/2.-end-to-end-ml-project.md)
     * [3. Classification](books/handsonml2/i.-the-fundamentals-of-ml/3.-classification.md)
@@ -31,12 +36,9 @@
     * [7. Ensemble Learning & Random Forests](books/handsonml2/i.-the-fundamentals-of-ml/7.-ensemble-learning-and-random-forests.md)
     * [8. Dimension Reduction](books/handsonml2/i.-the-fundamentals-of-ml/8.-dimension-reduction.md)
     * [9. Unsupervised Learning](books/handsonml2/i.-the-fundamentals-of-ml/9.-unsupervised-learning.md)
-  * [II. Neural Networks and DL](books/handsonml2/ii.-neural-networks-and-dl.md)
+  * [II. Neural Networks  -  DL](books/handsonml2/ii.-neural-networks-and-dl.md)
 * [Deep Learning with Python](books/dlwp.md)
 * [Elements of Statistical Learning](books/esl.md)
 
-## MOOCs
-
-* [Coursera - Machine Learning](moocs/coursera-machine-learning.md)
-* [Coursera - Deep Learning Spec.](moocs/coursera-deep-learning-spec..md)
+## Advanced Topics
 

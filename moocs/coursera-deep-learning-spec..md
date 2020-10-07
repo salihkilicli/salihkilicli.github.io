@@ -1,2 +1,0 @@
-# Coursera - Deep Learning Spec.
-
