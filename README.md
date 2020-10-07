@@ -1,7 +1,7 @@
 ---
 description: >-
-  I will share my personal notes about the Programming and Data Science topics
-  on this page.
+  I will be sharing my personal notes about the Programming and Data Science
+  topics on this page.
 ---
 
 # Introduction
