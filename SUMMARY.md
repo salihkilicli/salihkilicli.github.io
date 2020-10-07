@@ -17,7 +17,7 @@
 * [Machine Learning](tutorials/machine-learning.md)
 * [Deep Learning](tutorials/deep-learning.md)
 
-## Books
+## Book Notes <a id="books"></a>
 
 * [Python Data Science Handbook](books/pdsh/README.md)
   * [1. Jupyter Notebook \(IPython\)](books/pdsh/1.-jupyter-notebook-ipython.md)
