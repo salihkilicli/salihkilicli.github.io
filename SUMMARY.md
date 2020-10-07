@@ -1,10 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [External Posts](external/README.md)
-  * [Twitter Posts](https://twitter.com/math3mantic_)
-  * [Medium Posts](https://medium.com/@math3mantic)
-  * [Kaggle Notebooks](https://www.kaggle.com/math3mantic/notebooks)
 
 ## Tutorials
 
