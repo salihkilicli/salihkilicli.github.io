@@ -57,5 +57,8 @@
 
 ---
 
-* [Coding Practice](coding.md)
+* [Coding Practice](coding/README.md)
+  * [LeetCode](coding/leetcode.md)
+  * [HackerRank](coding/hackerrank.md)
+  * [ProjectEuler](coding/projecteuler.md)
 
