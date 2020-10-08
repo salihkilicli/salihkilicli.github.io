@@ -6,9 +6,9 @@ description: >-
 
 # Introduction
 
-The notes consist of 4 **main** groups:
+* The notes consist of 4 **main** groups:
 
-There are 4 types of **hints** used within the notes :
+* There are 4 types of **hints** used within the notes :
 
 {% hint style="info" %}
 **Info:** It is used to provide _tips_ and/or extra information such as a _definition_.
