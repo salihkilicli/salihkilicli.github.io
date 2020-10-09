@@ -15,7 +15,8 @@
   * [SciPy](tutorials/python/scipy.md)
   * [NumPy](tutorials/python/numpy.md)
   * [Pandas](tutorials/python/pandas.md)
-  * [Matplotlib-Seaborn-Plotly](tutorials/python/matplotlib-seaborn-plotly.md)
+  * [Visualization](tutorials/python/visualization.md)
+  * [Important Libraries](tutorials/python/important-libraries.md)
 * [Machine Learning](tutorials/ml.md)
 * [Deep Learning](tutorials/dl.md)
 
