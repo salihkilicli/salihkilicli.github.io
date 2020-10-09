@@ -1,8 +1,8 @@
 ---
 description: >-
-  In this section, I tried to summarize the important details of Machine
-  Learning landscape given in the book as well as adding more details to explain
-  some concepts better.
+  I tried to summarize the important details of the Machine Learning landscape
+  given in the book as well as adding more details to explain some concepts
+  better. This chapter is extremely important.
 ---
 
 # 1. The ML Landscape
@@ -58,7 +58,7 @@ Typical supervised learning tasks are **regression** and **classification** whos
 
 ![](../../../.gitbook/assets/screen-shot-2020-10-08-at-12.02.16-pm.png)
 
-An example of a **regression** problem would be predicting the price of a car, where given a set of _features_ \(mileage, age, brand, etc.\), called _predictors_, the task is to predict a _target_ numeric \(continuous\) value. Notice, not every numeric value is used for continuous varibles. Numerical values taking finite number of options are often used for categorical variables.
+An example of a **regression** problem would be predicting the price of a car, where given a set of _features_ \(mileage, age, brand, etc.\), called _predictors_, the task is to predict a _target_ numeric \(continuous\) value. Notice, not every numeric value is used for continuous variables. Numerical values taking a finite number of options are often used for categorical variables.
 
 ![](../../../.gitbook/assets/screen-shot-2020-10-08-at-12.02.04-pm.png)
 
