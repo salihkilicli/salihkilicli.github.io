@@ -135,7 +135,7 @@ For example, robots - in general - implement _Reinforcement Learning_ algorithms
 
 ### Batch vs Online Learning
 
-In **batch learning**, the system is **incapable** of learning incrementally, that is, the algorithm should be trained using all of the data available \(slow and costly\). In general, this process would take plenty of time and resources; hence, it is typically implemented _offline_. As in the AlphaGo example above, first the system is trained on the data, and then it is launched into production in which step it applies what it has learned. This type of learning called **offline learning**.
+In **batch learning**, the system is **incapable** of learning incrementally, that is, the algorithm should be trained using all of the data available \(slow and costly\). In general, this process would take plenty of time and resources; hence, it is typically implemented _offline_. As in the AlphaGo example above, first, the system is trained on the data, and then it is launched into production in which step it applies what it has learned. This type of learning called **offline learning**.
 
 ![](../../../.gitbook/assets/screen-shot-2020-10-08-at-1.43.18-pm.png)
 
@@ -206,13 +206,13 @@ On the other hand, when your model is too simple to learn the underlying complex
 
 ## Testing and Validating
 
-The only way to know how well our model will generalize to unseen data is trying it out on new cases. One can achieve this by splitting the complete data into two sets: **training** and **test sets**. As the names suggest, you training your model in the training set \(don't touch test set while optimizing your parameters\) and then you test how well your model works using the test set. By evaluating your model on the test set, you get an idea of how well your model would perform on instances that model never seen before. If the training error low whereas the test error is high, this is a good implication of **overfitting** the training data. If both of the errors are low, then there is a chance if the model is **underfitting** \(assuming that better performance is possible\) the data. In general, allocating 80% of the data for training and 20% for test is a common approach. However, when the dataset is large \(&gt; 1 million samples\), a fraction of 99% to 1% might even be a good choice, since &gt;10,000 data for testing would most likely be enough to evaluate the model performance.
+The only way to know how well our model will generalize to unseen data is by trying it out on new cases. One can achieve this by splitting the complete data into two sets: **training** and **test sets**. As the names suggest, you training your model in the training set \(don't touch the test set while optimizing your parameters\) and then you test how well your model works using the test set. By evaluating your model on the test set, you get an idea of how well your model would perform on instances that the model has never seen before. If the training error low whereas the test error is high, this is a good implication of **overfitting** the training data. If both of the errors are low, then there is a chance if the model is **underfitting** \(assuming that better performance is possible\) the data. In general, allocating 80% of the data for training and 20% for test is a common approach. However, when the dataset is large \(&gt; 1 million samples\), a fraction of 99% to 1% might even be a good choice, since &gt;10,000 data for testing would most likely be enough to evaluate the model performance.
 
 ### Hyperparameter Tuning and Model Selection
 
 Using a training and test set makes the model evaluation simple enough. But, how can we decide which one to use between two different models? One option is to train both and compare their generalization error using the test set. However, the problem occurs when you measure the error multiple times on the test set, and you adapted the model and hyperparameters to produce the best model for _that particular test set_. This means the model is unlikely to perform well on new data.
 
-A common solution to this problem is called **hold-out validation**: simply hold out some part of the training set to evaluate several candidate models and select the best one. The new held-out set is often called the **validation** \(development, or simply dev\) **set**. Now, you don't have to worry about adapting hyperparameters on the test set, rather you would select them according to their performance on _validation set_. Then you train the best model on the full training set \(train + validation\) to get the **final model**. Finally, you would evaluate this model on the _test set_ to get an estimate of the generalization error.
+A common solution to this problem is called **hold-out validation**: simply hold out some part of the training set to evaluate several candidate models and select the best one. The new held-out set is often called the **validation** \(development, or simply dev\) **set**. Now, you don't have to worry about adapting hyperparameters on the test set, rather you would select them according to their performance on the _validation set_. Then you train the best model on the full training set \(train + validation\) to get the **final model**. Finally, you would evaluate this model on the _test set_ to get an estimate of the generalization error.
 
 In the case the validation set is too _small_ or too _large_, then model evaluations will be _imprecise_ or _non-representative_ of the full training set \(since the rest is much smaller\), responsively. To prevent these problems one can perform repeated **cross-validation**, using many small validation sets. Each model is _evaluated_ on validation after it is trained on the rest of the data. Then, averaging the evaluation scores would yield a much accurate measure of the performance. On the other hand, this is a _drawback_ since it multiplies the training time by the number of validation sets.
 
@@ -230,7 +230,7 @@ Choose dev and test sets to reflect data you expect to feed into your model in t
 
 I wanted to add this topic since it is very important and somehow was not included in the book. The source of these notes is Kaggle's [Data Leakage](https://www.kaggle.com/alexisbcook/data-leakage) section in [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) mini-course. 
 
-Sometimes even though the model yields very high-performance metric on the test set but generalizes very poorly to unseen data because there is a data leakage between training and test datasets. 
+Sometimes even though the model yields a very high-performance metric on the test set but generalizes very poorly to unseen data because there is a data leakage between training and test datasets. 
 
 {% hint style="info" %}
 **Data leakage:** It happens when your training data contains information about the target, but similar data will **not** be available when the model is used for prediction. This leads to high performance on the training set \(and possibly even the validation data\), but the model will perform _poorly in production_.
@@ -317,7 +317,7 @@ It is a subset of data that comes with actual target values called labels.
 
 1. Clustering \(K-Means, Hierarchical Cluster Analysis, etc.\)
 2. Dimensionality reduction \(PCA, Kernel PCA, etc.\)
-3. Anomaly & Novelty detection \(One class SVM, Isolation forest, etc.\)
+3. Anomaly & Novelty detection \(One-class SVM, Isolation forest, etc.\)
 4. Association rule learning \(Apriori, Eclat, etc.\)
 
 **Problem 6: What type of Machine Learning algorithm would you use to allow a robot to walk in various unknown terrains?**
@@ -328,7 +328,7 @@ It is a subset of data that comes with actual target values called labels.
 
 * Clustering algorithms such as K-Means
 
-**Problem 8: Would you frame the problem of spam detection as a supervised learning prob‐ lem or an unsupervised learning problem?**
+**Problem 8: Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?**
 
 * Supervised since it is a binary classification problem
 
@@ -373,7 +373,7 @@ It is a subset of data that comes with actual target values called labels.
 
 **Problem 17: What is the purpose of a validation set?**
 
-* A set of data is often required to tune hyperparameters \(to compare different models\) to improve the model's performance; however, test data should **not** be used to tune hyperparameters since it would lead to data leakage. Thus, often we split data into three sets, training, validation, and test. The model trains on training set is tuned using validation set, and it is evaluated using test set.
+* A set of data is often required to tune hyperparameters \(to compare different models\) to improve the model's performance; however, test data should **not** be used to tune hyperparameters since it would lead to data leakage. Thus, often we split data into three sets, training, validation, and test. The model trains on training set tuned on validation set, and it is evaluated using test set.
 
 **Problem 18: What is the train-dev set, when do you need it, and how do you use it?**
 
