@@ -7,6 +7,8 @@ description: >-
 
 # 2. End-to-End ML Project
 
+## Working with Real Data
+
 The main steps author goes through in this chapter are:
 
 1. Look at the big picture.
@@ -44,9 +46,25 @@ You are pretending to be a recently hired Data Scientist at a real estate compan
                                         $$ → y_n= W_n X +b_n)$$ where $$X$$ is feature matrix.
 {% endhint %}
 
-### Regression Performance Metrics
+## Select a Performance Measure
 
+In the book, the prediction of sample$$i$$is represented by $$ \hat{y}^{(i)} = h (x^{(i)}).$$ We will use $$ \hat{y}^{(i)}.$$Some of the most common loss functions used in regression problems \(I included more\): 
 
+**Mean Squared Error:**         $$ \text{MSE} = \dfrac{1}{m} \sum\limits_{i=1}^{m} (y^{(i)} - \hat{y}^{(i)})^2 = \dfrac{1}{m} ||y^{(i)} - \hat{y}^{(i)}||_{\ell^2}^2 $$\*\*\*\*
+
+This is simply a rescaled version of a squared $$\ell^2$$ \(Euclidean\) norm of the error vector.
+
+**Root Mean Square Error:** $$ \text{RMSE} =  \sqrt{\dfrac{1}{m}\sum\limits_{i=1}^{m} (y^{(i)} - \hat{y}^{(i)})^2} = \dfrac{1}{\sqrt{m}} ||y^{(i)} - \hat{y}^{(i)}||_{\ell^2}$$\*\*\*\*
+
+Again, this is another rescaled version of an $$\ell^2$$ \(Euclidean\) norm of the error vector.
+
+**Mean Absolute Error:**  $$\text{MAE} = \dfrac{1}{m} \sum\limits_{i=1}^{m} |y^{(i)} - \hat{y}^{(i)}| = \dfrac{1}{m} ||y^{(i)} - \hat{y}^{(i)}||_{\ell^1}$$\*\*\*\*
+
+This error is a rescaled version of an $$\ell^1$$\(Manhattan\) norm of the error vector.
+
+**Root Mean Absolute Error:**  $$\text{MAE} = \sqrt{\dfrac{1}{m} \sum\limits_{i=1}^{m} |y^{(i)} - \hat{y}^{(i)}| }= \sqrt{\dfrac{1}{m} ||y^{(i)} - \hat{y}^{(i)}||_{\ell^1}}$$\*\*\*\*
+
+This error is a rescaled version of a square root of$$\ell^1$$\(Manhattan\) norm of the error vector.
 
 
 
