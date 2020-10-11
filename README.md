@@ -6,7 +6,9 @@ description: >-
 
 # Introduction
 
-* The notes consist of 4 **main** groups: \(Currently working on Hands-on ML2 section under the Book Notes page.\)
+\(Currently working on the Hands-on ML2 section under the Book Notes page.\)
+
+* The notes consist of 4 **main** groups: 
 
 * There are 4 types of **hints** used within the notes :
 
