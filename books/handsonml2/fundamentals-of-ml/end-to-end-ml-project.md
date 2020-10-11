@@ -102,7 +102,58 @@ Some of the notes about vector norms:
 **Note:** The standard deviation of the population is denoted by $$\sigma \ ($$sample std with $$s),$$ and it is the square root of the **variance**, which is the average of the squared deviation from the **mean**. When a feature has bell-shaped \(Gaussian, or normal\) distribution, the $$68-95-99.7$$ rule applies: about $$68 \%$$ of the values fall within $$1\sigma$$ of the mean, $$95 \%$$ within $$2\sigma,$$ $$99.7 \%$$within $$3\sigma.$$ This is very important as it is commonly used while finding **confidence intervals**.
 {% endhint %}
 
+## Splitting data into Train & Test 
 
+The easiest way to split a given data into train and test sets is by using`sklearn`'s `train_test_split`method.
 
+```python
+from sklearn.model_selection import train_test_split
 
+X_train, X_test = train_test_split(data,test_size=0.2,random_state=1)
+```
+
+The `random_state` parameter is used to reproduce results while using random generators. Otherwise' each time you use a random generator, you will get a different \(random\) answer. This method of splitting data is fine if the dataset is _large enough_ \(compared to the num. of features\), but if it is **not**, then it may produce significant **sampling bias**.
+
+{% hint style="info" %}
+**Sampling bias:** In statistics, **sampling bias** is a bias in which a sample is collected in such a way that some members of the intended population have a lower or higher sampling probability than others. 
+{% endhint %}
+
+In order to avoid sampling bias, we can utilize **stratified sampling**: the population is divided into homogeneous subgroups called **strata**, and the right number of instances are sampled from each **stratum** to guarantee that the test set is representative of the overall population. Stratified sampling can be achieved by using `pandas`' s `cut` method together with `sklearn`'s `StratifiedShuffleSplit` object as given below:
+
+```python
+data['target'] = pd.cut(data['target'], 
+                        bins=[0., 1.5, 3.0, 4.5, 6., np.inf],
+                        labels=[1, 2, 3, 4, 5])
+
+from skelarn.model_selection import StratifiedShuffleSplit
+split = StratifiedShuffleSplit(n_splits=1, test_size=1, random_state=0)
+
+for train_idx, test_idx split.split(data, data['target']):
+    strat_X_train = data.loc[train_idx]
+    strat_X_test  = data.loc[test_idx]
+```
+
+The test set generated using stratified sampling would have income category proportions almost identical to those in the full dataset, whereas the test set generated using purely random sampling will be skewed. Below is the results of the sampling experiment:
+
+![](../../../.gitbook/assets/sampling_comparison.png)
+
+Finally, by removing the target variable, you can select train and test sets to its original state.
+
+```python
+for set_ in (strat_X_train, strat_X_test):
+    set_.drop('Target', axis = 1, inplace = True)
+```
+
+## Visualize the Data to Gain Insights
+
+You can plot some portion of the data either using`seaborn`'s `scatterplot` or `pairplot`methods. The example below uses `pairplot.`
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set(style = 'darkgrid', palette = 'Paired')
+
+plt.figure(figsize = (16, 16))
+sns.pairplot(data)
+```
 
