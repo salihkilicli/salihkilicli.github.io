@@ -160,6 +160,10 @@ import seaborn as sns
 sns.set(style = 'darkgrid', palette = 'Paired')
 
 plt.figure(figsize = (16, 16))
-sns.pairplot(data)
+
+#assuming data is fairly small (otherwise, only plot useful features)
+sns.pairplot(data) 
 ```
+
+![An example of pairplot of housing data](../../../.gitbook/assets/pairplot_example.png)
 
