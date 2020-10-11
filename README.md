@@ -6,7 +6,11 @@ description: >-
 
 # Introduction
 
-\(Currently working on the Hands-on ML2 section under the Book Notes page.\)
+Currently, I am working on:
+
+* [ ] the Hands-on ML2 section under the Book Notes page
+
+
 
 * The notes consist of 4 **main** groups: 
 
