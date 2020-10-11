@@ -6,13 +6,3 @@ description: >-
 
 # Hands-on Machine Learning
 
-## Part I: The Fundamentals of Machine Learning
-
-## Chapter 1: The Machine Learning Landscape
-
-
-
-
-
-
-
