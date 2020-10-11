@@ -77,20 +77,26 @@ In general, the $$\bold{k^{th}}$$ **vector norm** is given by: $$ ||x||_{\ell^k}
 Some of the notes about vector norms:
 
 * **RMSE** corresponds to the **Euclidean** norm, whereas **MAE** does to the **Manhattan** norm.
-* $$||x ||_{\ell^0}$$ gives the number of nonzero elements of $$\bold{x},$$ and $$|| \cdot ||_{\ell^{∞}}$$ provides the maximum absolute value in the vector.
-* The higher the norm index$$k$$, the more $$||y^{(i)} - \hat{y}^{(i)}||_{\ell^k}$$ focuses on large values and effects of small ones becomes negligible. Therefore, **RMSE** is more sensitive to outliers than the **MAE**. But, when outliers are exponentially rare \(like in normal curve\), the **RMSE** outperforms **MAE** and preferred, in general.
+* $$||x ||_{\ell^0}$$ gives the number of nonzero elements of $$\bold{x},$$ and $$|| x ||_{\ell^{∞}}$$ the maximum of absolute values of components of$$\bold{x}.$$
+* The higher the norm index$$k$$, the more $$||y - \hat{y}||_{\ell^k}$$ focuses on large values, and the effects of small ones become negligible. Therefore, **RMSE** is more sensitive to _outliers_ than the **MAE**. But, when _outliers_ are exponentially _rare_ \(like in normal curve\), the **RMSE** outperforms **MAE** and it is preferred, in general.
 
 ## Percentiles and Quartiles
 
 {% hint style="info" %}
-**Quantile:** They are cut points dividing the range of a probability distribution into continuous intervals with _equal probabilities_, or dividing the observations in a sample in the same way.
-
-**Percentile:** The value below which k-percentage of the observations fall is called $$k^{th}$$ _percentile_.
-
-**Quartile:** A **quartile** is a type of quantile which divides the number of data points into **four** more or less equal parts or quarters.
-
- Example: The $$50 \%$$ _percentile_ is the $$2^{nd}$$_quartile_ and known as the **median**.
+\*\*\*\*[**Quantile:**](https://wiki2.org/en/Quantile) ****They are cut points dividing the range of a probability distribution into continuous intervals with _equal probabilities_, or dividing the observations in a sample in the same way.
 {% endhint %}
+
+{% hint style="info" %}
+\*\*\*\*[**Percentile:**](https://wiki2.org/en/Percentile) ****The value below which k-percentage of the observations fall is called $$k^{th}$$ _percentile_.
+{% endhint %}
+
+{% hint style="info" %}
+\*\*\*\*[**Quartile:**](https://wiki2.org/en/Quartile) A _quartile_ is a type of quantile which divides the number of data points into _four_ more or less equal parts or quarters.
+{% endhint %}
+
+**Example**: The $$50 \%$$ _percentile_ is the $$2^{nd}$$_quartile_ and it is commonly known as the **median**.
+
+
 
 ![Bell-shaped curve: Normal distribution and Quartiles](../../../.gitbook/assets/normal_dist.svg)
 
@@ -108,13 +114,13 @@ from sklearn.model_selection import train_test_split
 X_train, X_test = train_test_split(data,test_size=0.2,random_state=1)
 ```
 
-The `random_state` parameter is used to reproduce results while using random generators. Otherwise' each time you use a random generator, you will get a different \(random\) answer. This method of splitting data is fine if the dataset is _large enough_ \(compared to the num. of features\), but if it is **not**, then it may produce significant **sampling bias**.
+The `random_state` parameter is used to reproduce results while using random generators. Otherwise' each time you use a random generator, you will get a different \(random\) answer. This method of splitting data is fine if the dataset is _large enough_ \(compared to the num. of features\), but if it is **not**, then it may produce significant **sampling bias**. Some of the common bias types in statistics are explained [here](https://data36.com/statistical-bias-types-explained/).
 
 {% hint style="info" %}
 **Sampling bias:** In statistics, **sampling bias** is a bias in which a sample is collected in such a way that some members of the intended population have a lower or higher sampling probability than others. 
 {% endhint %}
 
-In order to avoid sampling bias, we can utilize **stratified sampling**: the population is divided into homogeneous subgroups called **strata**, and the right number of instances are sampled from each **stratum** to guarantee that the test set is representative of the overall population. Stratified sampling can be achieved by using `pandas`' s `cut` method together with `sklearn`'s `StratifiedShuffleSplit` object as given below:
+In order to avoid sampling bias, we can utilize **stratified sampling**: the population is divided into homogeneous subgroups called **strata**, and the right number of instances are sampled from each **stratum** to guarantee that the test set is representative of the overall population. Stratified sampling \(into 5 strata\) can be achieved by using `pandas`' s `cut` method together with `sklearn`'s `StratifiedShuffleSplit` object as given below:
 
 ```python
 data['target'] = pd.cut(data['target'], 
