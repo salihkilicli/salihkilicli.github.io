@@ -32,10 +32,6 @@ You are pretending to be a recently hired Data Scientist at a real estate compan
 **Pipelines:** A sequence of data processing components is called a data _pipeline_. Pipelines are de facto standards of Machine Learning systems since there is a lot of data to preprocess and various transformations to apply.
 {% endhint %}
 
-{% hint style="info" %}
-\*\*\*\*
-{% endhint %}
-
 {% hint style="warning" %}
 Below the definitions of two concepts often mistaken for each other are given:
 
