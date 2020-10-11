@@ -135,6 +135,10 @@ for train_idx, test_idx split.split(data, data['target']):
     strat_X_test  = data.loc[test_idx]
 ```
 
+{% hint style="info" %}
+The **main idea** in `StratifiedShuffleSplit` is that train and test sets will follow an almost equal distribution of categories. Check the figure below.
+{% endhint %}
+
 The test set generated using stratified sampling would have income category proportions almost identical to those in the full dataset, whereas the test set generated using purely random sampling will be skewed. Below is the results of the sampling experiment:
 
 ![](../../../.gitbook/assets/sampling_comparison.png)
