@@ -167,3 +167,5 @@ sns.pairplot(data)
 
 ![An example of pairplot of housing data](../../../.gitbook/assets/pairplot_example.png)
 
+
+
