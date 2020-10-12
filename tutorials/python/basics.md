@@ -1,11 +1,10 @@
 ---
-description: >-
-  Here is some basic information about the Python programming language. In this
-  chapter code blocks used often. `>>>` symbol is used to denote the commands
-  entered to the interpreter.
+description: Here is some basic information about the Python programming language.
 ---
 
 # Basics
+
+In this chapter code blocks used often. `>>>` symbol is used to denote the commands entered to the interpreter. The following line is the output of the Python interpreter.
 
 ### Print
 
