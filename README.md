@@ -8,6 +8,7 @@ description: >-
 
 Currently, I am working on:
 
+* [ ] Python Basics
 * [ ] the Hands-on ML2 section under the Book Notes page
 
 
