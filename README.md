@@ -25,7 +25,7 @@ Here is a **preview** of how the particles effects works:
 
 There are so many tutorials on how to use particle effects on the web; however, almost all of them create a new HTML file rather than applying it onto an existing website with a fixed background. I wanted to explain how to do it in this post. 
 
-Here is the GitHub repo for the [`particles.js`](https://github.com/VincentGarreau/particles.js/).
+Here is the GitHub repo for the [particles.js](https://github.com/VincentGarreau/particles.js/).
 You can edit and preview the live version of the effect on [here](https://vincentgarreau.com/particles.js/), and pick best parameters for your own animation.
 This [website](https://codepen.io/pen/?&editable=true=https%3A%2F%2Fvincentgarreau.com%2Fparticles.js%2F) provides HTML, CSS and js codes you want to include in your website to add `particles` effect in your webpage.
 
