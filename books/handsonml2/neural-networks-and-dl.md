@@ -1,2 +1,0 @@
-# II. Neural Networks  -  DL
-
