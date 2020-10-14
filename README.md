@@ -1,35 +1,60 @@
----
-description: >-
-  I will be sharing my personal notes about the Programming and Data Science
-  topics on this page.
----
+# Data Science Portfolio Website
 
-# Introduction
+This is my portfolio and blog site which can be reached @ https://salihkilicli.github.io/. 
 
-Currently, I am working on:
+![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/ss.png)
 
-* [ ] Python Basics
-* [ ] the Hands-on ML2 section under the Book Notes page
+The webpage was built on Hugo's [Toha](https://themes.gohugo.io/toha/) theme and the creator of the theme is [Emruz Hossain](https://github.com/hossainemruz/). 
+
+The avatar is created using **avatarmaker**, you can create your own avatar using https://avatarmaker.com/.
 
 
+Notes:
 
-* The notes consist of 4 **main** groups: 
+- I will be sharing blog posts related to Mathematics, Statistics and Data Science under the `Posts` section.
+- I will also be sharing my personal Data Science projects under the `Projects` setion.
+- Under the `Notes` section I will be posting Data Science/ML/DL tutorials (from scratch) and notes to remind myself some of the advanced topics I don't utilize regularly.
 
-* There are 4 types of **hints** used within the notes :
+#### How to add particles effects on a section in your website?
 
-{% hint style="info" %}
-**Info:** It is used to provide _tips_ and/or extra information such as a _definition_.
-{% endhint %}
+Here is a **preview** of how the particles effects works:
 
-{% hint style="warning" %}
-**Warning:** It is used to present important _details_ to keep in mind.
-{% endhint %}
+![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif)
 
-{% hint style="danger" %}
-**Danger:** It is used to raise attention to common _mistakes_ and _misconceptions_.
-{% endhint %}
+#### Details: ####
 
-{% hint style="success" %}
-**Success:** It is used to show the _successful_ _implementation_ of a technique.
-{% endhint %}
+There are so many tutorials on how to use particle effects on the web; however, almost all of them create a new HTML file rather than applying it onto an existing website with a fixed background. I wanted to explain how to do it in this post. 
 
+Here is the GitHub repo for the `particles.js` https://github.com/VincentGarreau/particles.js/.
+You can edit and preview the live version of the effect on [here](https://vincentgarreau.com/particles.js/), and pick best parameters for your own animation.
+This [website](https://codepen.io/pen/?&editable=true=https%3A%2F%2Fvincentgarreau.com%2Fparticles.js%2F) provides HTML, CSS and js codes you want to include in your website to add `particles` effect in your webpage.
+
+In order to add particles effect on your website, follow the instructions below:
+
+1) Download the demo files from the **repo**.
+2) Copy `particles.js` and `app.js` file into your local `js` folder.
+3) Edit your webpage's `index.html` file and insert a `particles.js` container (or attribute) inside the section you want to apply the effect in.
+
+  ```html
+  <!-- particles-js container -->
+  <div id="particles-js"></div>
+  ```
+4) Then, using a `<script>` tag include the relative path to `particles.js` and `app.js` files.
+
+  ```html
+    <!-- Particles Animation JS -->
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/particles.app.js"></script>
+  ```
+5) Now insert the __CSS__ code below inside the corresponding section's (in my case it was `home.css`) css file:
+
+  ```javascript
+  .particles {
+  margin: 0px !important;
+  top:    0px !important;
+  left:   0px !important;
+  right:  0px !important;
+  bottom: 0px !important;
+  z-index: -1;
+  }
+  ```
