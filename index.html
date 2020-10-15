@@ -137,6 +137,7 @@ and Main Page --------------------------------------------->
     
 <div class="container-fluid home" id="home">
   <div class="background container-fluid" style="background-image: url('images/background.jpg');">
+
   <!--- Background image via JESHOOTS.COM [https://unsplash.com/photos/fzOITuS1DIQ] (copyright-free) --->
 
   <!-- particles.js container -->
@@ -154,17 +155,17 @@ and Main Page --------------------------------------------->
       <span class="ityped-cursor"></span>
     </div>
 
-    <h2> I <ul id="typing-carousel-data">
+    <ul id="typing-carousel-data">
 
-       <li>am Salih.</li>
+       <li>I am Salih.</li>
 
-      <li>am an Applied Mathematician.</li>
+      <li>I am an Applied Mathematician.</li>
       
-      <li>am a Data Scientist.</li>
+      <li>I am a Data Scientist.</li>
       
-      <li>love to work with Data!</li>
+      <li>I love to work with Data!</li>
       
-	    </ul></h2>
+	  </ul>
 
         <a href="index.html#about" class="scroll_down"><i class="arrow bounce fa fa-chevron-down"></i></a>
       
@@ -199,13 +200,52 @@ and Main Page --------------------------------------------->
 	I have a 4.0 GPA on all Ph.D. level statistics courses and an Applied Statistics Certificate as well as
 	a Computational Sciences Certificate from Texas A&M. The courses involving computational applications are:
 	      
-	<ul>
-		<li> Mathematical Algorithms & Their Applications (Python) - Mathematical Modelling (MATLAB)</li>
-  	 	<li>Numerical Analysis (MATLAB) - Numerical Methods in PDEs (MATLAB)</li>
-		<li>Regresional Analysis (R) - Databases and Computational Tools Used in Big Data (Python, R, C/C++, No/SQL)</li>
-		<li>Time Series Analysis (R) - Applied Biostatistics & Data Analyis (R)</li>
-		<li>Statistical Aspects of Machine Learning I: Classical Multivariate Methods (Python)</li>
-	</ul>
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Python')">Python</button>
+        <button class="tablinks" onclick="openCity(event, 'R')">R</button>
+        <button class="tablinks" onclick="openCity(event, 'MATLAB')">MATLAB</button>
+        <button class="tablinks" onclick="openCity(event, 'All')">All</button>
+      </div>
+
+      <!-- Tab content -->
+      <div id="Python" class="tabcontent">
+        <h3>Python</h3>
+        <ul><li> Mathematical Algorithms & Their Applications (Python) </li>
+            <li> Statistical Aspects of Machine Learning I: Classical Multivariate Methods (Python) </li>
+            <li> Databases and Computational Tools Used in Big Data (Python, R, C/C++, No/SQL) </li>
+        </ul>
+      </div>
+
+      <div id="R" class="tabcontent">
+        <h3>R</h3>
+          <ul><li> Regresional Analysis (R) </li>
+              <li> Time Series Analysis (R) </li>
+              <li> Applied Biostatistics & Data Analyis (R) </li>
+              <li> Databases and Computational Tools Used in Big Data (Python, R, C/C++, No/SQL) </li>
+          </ul>
+      </div>
+
+      <div id="MATLAB" class="tabcontent">
+        <h3>MATLAB</h3>
+          <ul><li> Mathematical Modelling (MATLAB) </li>
+              <li> Numerical Analysis (MATLAB) </li>
+              <li> Numerical Methods in PDEs (Finite Elements Method) (MATLAB) </li>
+          </ul>
+      </div>
+
+      <div id="All" class="tabcontent">
+        <h3>All</h3>
+          <ul><li> Mathematical Algorithms & Their Applications (Python) </li>
+              <li> Statistical Aspects of Machine Learning I: Classical Multivariate Methods (Python) </li> 
+              <li> Time Series Analysis (R) - Applied Biostatistics & Data Analyis (R) </li>
+              <li> Mathematical Modelling (MATLAB) </li>
+              <li> Numerical Analysis (MATLAB) </li>
+              <li> Numerical Methods in PDEs (MATLAB) </li>
+              <li> Regresional Analysis (R) - Databases and Computational Tools Used in Big Data (Python, R, C/C++, No/SQL) </li>
+          </ul>
+      </div>
+
 	      
 	I am currently open to full-time/internship opportunities as a Data Scientist/ML Engineer mainly in Texas, but am open to relocation.
 
