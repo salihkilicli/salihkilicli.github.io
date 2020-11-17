@@ -33,7 +33,7 @@ In order to add particles effect on your website, follow the instructions below:
 
 1) Download the demo files from the **repo**.
 2) Copy `particles.js` and `app.js` file into your local `js` folder.
-3) Edit your webpage's `index.html` file and insert a `particles.js` container (or attribute) inside the section you want to apply the effect in.
+3) Edit your webpage's `index.html` file and insert a `particles.js` container (or attribute) inside the section you want to apply the effect.
 
   ```html
   <!-- particles-js container -->
