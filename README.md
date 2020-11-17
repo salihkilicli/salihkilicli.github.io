@@ -58,14 +58,3 @@ In order to add particles effect on your website, follow the instructions below:
   z-index: -1;
   }
   ```
-  
-A suggestion made by [ipankajsingh](https://github.com/ipankajsingh):
-
-<b>Issue :</b> Once you resize the browser using a mobile device, ipad etc., particles effect only works on the top half when in portrait mode.
-
-<b>Solution :</b> Instead of inserting a new div inside background image div, just assign the id "particles-js" to that background div itself.
-that way the canvas will be formed inside the background image div instead of a new div below that which doesn't follow the width and height of background.
-
-<div class="background container-fluid" id="particles-js" 
-     style="background-image: url('{{ strings.TrimSuffix "/" site.BaseURL }}{{ $backgroundImage | relURL }}');">
-</div>
