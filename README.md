@@ -18,7 +18,7 @@ Notes:
 
 Here is a **preview** of how the particles effects works:
 
-<center>![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif)</center>
+![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif)
 
 #### Details ####
 
