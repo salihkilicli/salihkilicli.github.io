@@ -39,7 +39,7 @@ In order to add particles effect on your website, follow the instructions below:
   <div id="particles-js"></div>
   ```
 
-or simply include __id="particles-js"__ tag inside the container on which you want to apply the effect.
+or simply include `id="particles-js"` tag inside the container on which you want to apply the effect.
 
 4) Then, using a `<script>` tag include the relative path to `particles.js` and `app.js` files.
 
