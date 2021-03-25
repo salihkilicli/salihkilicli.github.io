@@ -1,16 +1,16 @@
 /* This is empty CSS file intended to be overwritten by user's custom CSS file */
 
 #border {
-    border-bottom: solid 4px rgb(226, 10, 75);
+    border-bottom: solid 4px rgb(85, 255, 99);
     display: inline-block;
-    margin-left: 4px;
-    border-radius: 1px;
+    margin-left: 3px;
+    border-radius: 4px;
     width: 13px;
     animation: animated-cursor 600ms steps(30,end) infinite;
 }
 
 @keyframes animated-cursor{
-    from{border-bottom-color: rgb(226,10,75);}
+    from{border-bottom-color: rgb(85, 255, 99);}
     to{border-bottom-color: transparent;}
 }
 
