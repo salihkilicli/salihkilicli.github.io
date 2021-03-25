@@ -2,7 +2,7 @@
 
 This is my portfolio and blog site which can be reached @ <https://salihkilicli.github.io/>.
 
-![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/ss.png)
+![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/ss.png){:height="100%" width="100%"}
 
 The webpage was built on Hugo's [Toha](https://themes.gohugo.io/toha/) theme and the creator of the theme is [Emruz Hossain](https://github.com/hossainemruz/).
 
@@ -18,7 +18,7 @@ Notes:
 
 Here is a **preview** of how the particles effects works:
 
-![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif)
+![](https://github.com/salihkilicli/salihkilicli.github.io/blob/master/website.gif){:height="100%" width="110%"}
 
 #### Details ####
 
