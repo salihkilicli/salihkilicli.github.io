@@ -17,6 +17,11 @@
         animation-name: animated-cursor;
 }
 
+@keyframes animated-cursor{
+    from{border-bottom-color:rgb(8, 235, 110);}
+    to{border-bottom-color: transparent;}
+}
+
 /* ============= Device specific fixes ======= */
 
 /* Large screens such as TV */
